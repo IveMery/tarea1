@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Card = ({ name, gender, species, image, status, id }) => {
+const Card = ({ name, gender, species, image, status}) => {
   const [favorite, setFavorite] = useState(false);
 
   const handleClick = () => {
