@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <nav className="navbar  bg-success justify-content-around-">
       <div className="p-2">
-        <img className="logo" src={logo} alt="logo" />
+      <Link to="/"><img className="logo" src={logo} alt="logo" /></Link>
       </div>
       <div className="d-flex justify-content-end">
         <Link to="/" className="p-2 text-decoration-none text-dark fw-bold">
